@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 15;
+    line-height: 1.6;
+    color: #333;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+
+    background: url(../img/Bg.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}
+
+.header {
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+
+.header__logo{
+    position: absolute;
+    width: 172px;
+    height: 29px;
+    left: 165px;
+    top: 55px;
+}
+
+.nav{
+    position: absolute;
+    width: 445px;
+    height: 22px;
+    left: 498px;
+    top: 58px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+
+    transition: color 0.2s linear;
+}
+
+.nav__link:hover {
+    color: black;
+}
+
+.login__border{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1172px;
+    top: 50px;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    transition: color 0.2s linear;
+}
+
+.login__border:hover{
+    background-color: black;
+}
+.login{
+    position: absolute;
+width: 43px;
+height: 17px;
+left: 1201px;
+top: 61px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.Главныйтекст{
+    position: absolute;
+width: 578px;
+height: 86px;
+left: 439px;
+top: 269px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 86px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.описание{
+    position: absolute;
+width: 540px;
+height: 124px;
+left: 459px;
+top: 394px;
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+}
+
+.signup__rectangle{
+    position: absolute;
+width: 160px;
+height: 50px;
+left: 648px;
+top: 557px;
+
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    transition: color 0.2s linear;
+
+
+background: #FFFFFF;
+border-radius: 6px;
+}
+
+.signup__rectangle:hover{
+    border: white;
+}
+
+.signup{
+    position: absolute;
+width: 55px;
+height: 17px;
+left: 700px;
+top: 574px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #ED4C5C;
+}
+
+.text2{
+    position: absolute;
+width: 445px;
+height: 107px;
+left: 165px;
+top: 922px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+
+color: #000000;
+}
+
+.описание2{
+    position: absolute;
+width: 445px;
+height: 115px;
+left: 165px;
+top: 1053px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+color: #000000;
+}
+
+.foto2{
+    position: absolute;
+width: 445px;
+height: 311px;
+left: 737px;
+top: 876px;
+
+background: url(../img/Video_bg.jpg), #C4C4C4;
+border-radius: 15px;
+}
+
+.кружок2{
+    position: absolute;
+width: 66px;
+height: 66px;
+left: 704px;
+top: 999px;
+border-radius: 50%;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+background: #ED4C5C;
+}
+
+.кружок2{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ED4C5C;
+}
+.кружок2:hover{
+    background-color: #ED4C5C;
+    color: white;
+}
+
+.подкружок2{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 728px;
+top: 1023px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #ED4C5C;
+}
+
